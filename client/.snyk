@@ -1,0 +1,108 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.22.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-567746:
+    - react-scripts > @babel/core > lodash:
+        patched: '2021-10-23T02:03:17.485Z'
+    - react-scripts > eslint > lodash:
+        patched: '2021-10-23T02:03:17.485Z'
+    - react-scripts > eslint-plugin-flowtype > lodash:
+        patched: '2021-10-23T02:03:17.485Z'
+    - react-scripts > eslint-plugin-import > lodash:
+        patched: '2021-10-23T02:03:17.485Z'
+    - react-scripts > html-webpack-plugin > lodash:
+        patched: '2021-10-23T02:03:17.485Z'
+    - react-scripts > webpack-manifest-plugin > lodash:
+        patched: '2021-10-23T02:03:17.485Z'
+    - victory > victory-core > lodash:
+        patched: '2021-10-23T02:03:17.485Z'
+    - victory > victory-area > lodash:
+        patched: '2021-10-23T02:03:17.485Z'
+    - victory > victory-axis > lodash:
+        patched: '2021-10-23T02:03:17.485Z'
+    - victory > victory-bar > lodash:
+        patched: '2021-10-23T02:03:17.485Z'
+    - victory > victory-box-plot > lodash:
+        patched: '2021-10-23T02:03:17.485Z'
+    - victory > victory-brush-container > lodash:
+        patched: '2021-10-23T02:03:17.485Z'
+    - victory > victory-brush-line > lodash:
+        patched: '2021-10-23T02:03:17.485Z'
+    - victory > victory-candlestick > lodash:
+        patched: '2021-10-23T02:03:17.485Z'
+    - victory > victory-polar-axis > lodash:
+        patched: '2021-10-23T02:03:17.485Z'
+    - victory > victory-shared-events > lodash:
+        patched: '2021-10-23T02:03:17.485Z'
+    - victory > victory-chart > lodash:
+        patched: '2021-10-23T02:03:17.485Z'
+    - victory > victory-cursor-container > lodash:
+        patched: '2021-10-23T02:03:17.485Z'
+    - victory > victory-selection-container > lodash:
+        patched: '2021-10-23T02:03:17.485Z'
+    - victory > victory-tooltip > lodash:
+        patched: '2021-10-23T02:03:17.485Z'
+    - victory > victory-voronoi-container > lodash:
+        patched: '2021-10-23T02:03:17.485Z'
+    - victory > victory-zoom-container > lodash:
+        patched: '2021-10-23T02:03:17.485Z'
+    - victory > victory-create-container > lodash:
+        patched: '2021-10-23T02:03:17.485Z'
+    - victory > victory-errorbar > lodash:
+        patched: '2021-10-23T02:03:17.485Z'
+    - victory > victory-group > lodash:
+        patched: '2021-10-23T02:03:17.485Z'
+    - victory > victory-legend > lodash:
+        patched: '2021-10-23T02:03:17.485Z'
+    - victory > victory-line > lodash:
+        patched: '2021-10-23T02:03:17.485Z'
+    - victory > victory-pie > lodash:
+        patched: '2021-10-23T02:03:17.485Z'
+    - victory > victory-scatter > lodash:
+        patched: '2021-10-23T02:03:17.485Z'
+    - victory > victory-stack > lodash:
+        patched: '2021-10-23T02:03:17.485Z'
+    - victory > victory-voronoi > lodash:
+        patched: '2021-10-23T02:03:17.485Z'
+    - react-scripts > eslint > inquirer > lodash:
+        patched: '2021-10-23T02:03:17.485Z'
+    - react-scripts > @babel/core > @babel/traverse > lodash:
+        patched: '2021-10-23T02:03:17.485Z'
+    - react-scripts > eslint > table > lodash:
+        patched: '2021-10-23T02:03:17.485Z'
+    - react-scripts > optimize-css-assets-webpack-plugin > last-call-webpack-plugin > lodash:
+        patched: '2021-10-23T02:03:17.485Z'
+    - react-scripts > react-dev-utils > inquirer > lodash:
+        patched: '2021-10-23T02:03:17.485Z'
+    - react-scripts > webpack-dev-server > http-proxy-middleware > lodash:
+        patched: '2021-10-23T02:03:17.485Z'
+    - '@date-io/date-fns > lerna > @lerna/bootstrap > @lerna/command > lodash':
+        patched: '2021-10-23T02:03:17.485Z'
+    - react-scripts > @svgr/webpack > @svgr/plugin-jsx > @babel/core > lodash:
+        patched: '2021-10-23T02:03:17.485Z'
+    - react-scripts > babel-preset-react-app > @babel/plugin-transform-classes > @babel/helper-define-map > lodash:
+        patched: '2021-10-23T02:03:17.485Z'
+    - material-table > @date-io/date-fns > lerna > @lerna/bootstrap > @lerna/command > lodash:
+        patched: '2021-10-23T02:03:17.485Z'
+    - '@date-io/date-fns > lerna > @lerna/version > @lerna/conventional-commits > conventional-changelog-core > lodash':
+        patched: '2021-10-23T02:03:17.485Z'
+    - '@date-io/date-fns > lerna > @lerna/version > @lerna/prompt > inquirer > lodash':
+        patched: '2021-10-23T02:03:17.485Z'
+    - react-scripts > @svgr/webpack > @babel/preset-env > @babel/plugin-transform-modules-amd > @babel/helper-module-transforms > lodash:
+        patched: '2021-10-23T02:03:17.485Z'
+    - react-scripts > jest-environment-jsdom-fourteen > jsdom > request-promise-native > request-promise-core > lodash:
+        patched: '2021-10-23T02:03:17.485Z'
+    - '@date-io/date-fns > lerna > @lerna/version > @lerna/conventional-commits > conventional-changelog-core > conventional-changelog-writer > lodash':
+        patched: '2021-10-23T02:03:17.485Z'
+    - '@date-io/date-fns > lerna > @lerna/version > @lerna/conventional-commits > conventional-changelog-core > conventional-commits-parser > lodash':
+        patched: '2021-10-23T02:03:17.485Z'
+    - material-table > @date-io/date-fns > lerna > @lerna/version > @lerna/conventional-commits > conventional-changelog-core > lodash:
+        patched: '2021-10-23T02:03:17.485Z'
+    - material-table > @date-io/date-fns > lerna > @lerna/version > @lerna/prompt > inquirer > lodash:
+        patched: '2021-10-23T02:03:17.485Z'
+    - material-table > @date-io/date-fns > lerna > @lerna/version > @lerna/conventional-commits > conventional-changelog-core > conventional-changelog-writer > lodash:
+        patched: '2021-10-23T02:03:17.485Z'
+    - material-table > @date-io/date-fns > lerna > @lerna/version > @lerna/conventional-commits > conventional-changelog-core > conventional-commits-parser > lodash:
+        patched: '2021-10-23T02:03:17.485Z'
