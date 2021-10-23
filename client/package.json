@@ -32,13 +32,16 @@
     "redux-saga": "^1.0.5",
     "reselect": "^4.0.0",
     "typescript": "^3.6.2",
-    "victory": "^33.0.5"
+    "victory": "^33.0.5",
+    "@snyk/protect": "latest"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "prepare": "npm run snyk-protect",
+    "snyk-protect": "snyk-protect"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -59,5 +62,6 @@
     "eslint": "^5.16.0",
     "eslint-plugin-react": "^7.14.3",
     "eslint-plugin-react-hooks": "^1.6.1"
-  }
+  },
+  "snyk": true
 }
